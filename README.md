@@ -1,3 +1,8 @@
+## ATTENTION
+
+This is a fork of Prism Launcher and has no affiliations with the main Prism Launcher project. All issues using this modified version goes to me. Please do not bother the devs of Prism Launcher or MultiMC.
+
+
 <p align="center">
 <img src="./program_info/org.prismlauncher.PrismLauncher.logo.svg#gh-light-mode-only" alt="Prism Launcher logo" width="50%"/>
 <img src="./program_info/org.prismlauncher.PrismLauncher.logo-darkmode.svg#gh-dark-mode-only" alt="Prism Launcher logo" width="50%"/>
