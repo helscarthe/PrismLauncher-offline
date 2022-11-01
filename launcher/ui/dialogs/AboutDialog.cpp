@@ -97,7 +97,7 @@ QString getCreditsHtml()
     stream << "<br />\n";
 
     stream << "<h3>" << QObject::tr("With thanks to", "About Credits") << "</h3>\n";
-    stream << QString("<p>Boba %1</p>\n")           .arg(getWebsite("https://cmdplusv.neocities.org/"));
+    stream << QString("<p>Boba %1</p>\n")           .arg(getWebsite("https://bobaonline.neocities.org/"));
     stream << QString("<p>Davi Rafael %1</p>\n")    .arg(getWebsite("https://auti.one/"));
     stream << QString("<p>Fulmine %1</p>\n")        .arg(getWebsite("https://www.fulmine.xyz/"));
     stream << QString("<p>ely %1</p>\n")            .arg(getGitHub("elyrodso"));
@@ -172,7 +172,7 @@ AboutDialog::AboutDialog(QWidget *parent) : QDialog(parent), ui(new Ui::AboutDia
     QString urlText("<html><head/><body><p><a href=\"%1\">%1</a></p></body></html>");
     ui->urlLabel->setText(urlText.arg(BuildConfig.LAUNCHER_GIT));
 
-    QString copyText("© 2021-2022 %1");
+    QString copyText("© 2022 %1");
     ui->copyLabel->setText(copyText.arg(BuildConfig.LAUNCHER_COPYRIGHT));
 
     connect(ui->closeButton, SIGNAL(clicked()), SLOT(close()));
