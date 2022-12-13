@@ -371,8 +371,8 @@ jobs:
           cd ${{ env.INSTALL_DIR }}
           if ("${{ matrix.qt_ver }}" -eq "5")
           {
-            Copy-Item D:/a/PrismLauncher/Qt/Tools/OpenSSL/Win_x86/bin/libcrypto-1_1.dll -Destination libcrypto-1_1.dll
-            Copy-Item D:/a/PrismLauncher/Qt/Tools/OpenSSL/Win_x86/bin/libssl-1_1.dll -Destination libssl-1_1.dll
+            Copy-Item D:/a/PrismLauncher-offline/Qt/Tools/OpenSSL/Win_x86/bin/libcrypto-1_1.dll -Destination libcrypto-1_1.dll
+            Copy-Item D:/a/PrismLauncher-offline/Qt/Tools/OpenSSL/Win_x86/bin/libssl-1_1.dll -Destination libssl-1_1.dll
           }
 
       - name: Package (Windows MinGW-w64, portable)
